@@ -34,5 +34,5 @@ MonoBehaviour:
   DashDuration: 0.15
   DashCooldown: 0.8
   MaxJumps: 2
-  WallStickDuration: 0.25
-  WallLockoutDuration: 0.65
+  WallStickDuration: 0.15
+  WallLockoutDuration: 0.75
