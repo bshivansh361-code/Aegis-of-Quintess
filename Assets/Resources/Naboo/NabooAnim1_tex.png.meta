@@ -1,0 +1,1067 @@
+fileFormatVersion: 2
+guid: 67d5955d4f33afb4997a87e9c2040c43
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2459538954021580573
+    second: NabooAnim1_tex_0
+  - first:
+      213: 8787981514456120705
+    second: NabooAnim1_tex_1
+  - first:
+      213: 4405546992476496424
+    second: NabooAnim1_tex_2
+  - first:
+      213: -1975340525811054829
+    second: NabooAnim1_tex_3
+  - first:
+      213: 1444894773767272225
+    second: NabooAnim1_tex_4
+  - first:
+      213: 7993161057991090221
+    second: NabooAnim1_tex_5
+  - first:
+      213: 3374561147014545956
+    second: NabooAnim1_tex_6
+  - first:
+      213: -2603455608385861177
+    second: NabooAnim1_tex_7
+  - first:
+      213: 7324601149236760295
+    second: NabooAnim1_tex_8
+  - first:
+      213: 6517133996186737595
+    second: NabooAnim1_tex_9
+  - first:
+      213: 2406962300473486631
+    second: NabooAnim1_tex_10
+  - first:
+      213: -3465180325853689772
+    second: NabooAnim1_tex_11
+  - first:
+      213: 4727087603783599641
+    second: NabooAnim1_tex_12
+  - first:
+      213: -1710288483893147505
+    second: NabooAnim1_tex_13
+  - first:
+      213: 1897601381669965990
+    second: NabooAnim1_tex_14
+  - first:
+      213: -5774830119070438098
+    second: NabooAnim1_tex_15
+  - first:
+      213: 6613796507980643493
+    second: NabooAnim1_tex_16
+  - first:
+      213: 8705875302716245625
+    second: NabooAnim1_tex_17
+  - first:
+      213: 2424047645586746455
+    second: NabooAnim1_tex_18
+  - first:
+      213: -2135110809728672377
+    second: NabooAnim1_tex_19
+  - first:
+      213: 3794888186145679250
+    second: NabooAnim1_tex_20
+  - first:
+      213: -4547438287125880960
+    second: NabooAnim1_tex_21
+  - first:
+      213: -7817866374528061191
+    second: NabooAnim1_tex_22
+  - first:
+      213: -7604862202838101793
+    second: NabooAnim1_tex_23
+  - first:
+      213: -2101401904942271836
+    second: NabooAnim1_tex_24
+  - first:
+      213: 8430288011530971869
+    second: NabooAnim1_tex_25
+  - first:
+      213: -474519762446929641
+    second: NabooAnim1_tex_26
+  - first:
+      213: 7168318977285955608
+    second: NabooAnim1_tex_27
+  - first:
+      213: 2256926954842439183
+    second: NabooAnim1_tex_28
+  - first:
+      213: -6301551372092925811
+    second: NabooAnim1_tex_29
+  - first:
+      213: -123570459162931003
+    second: NabooAnim1_tex_30
+  - first:
+      213: -7712802900383824145
+    second: NabooAnim1_tex_31
+  - first:
+      213: -6583906857193079107
+    second: NabooAnim1_tex_32
+  - first:
+      213: 3384764279851419078
+    second: NabooAnim1_tex_33
+  - first:
+      213: -6414012327370847635
+    second: NabooAnim1_tex_34
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NabooAnim1_tex_0
+      rect:
+        serializedVersion: 2
+        x: 7086
+        y: 7815
+        width: 459
+        height: 377
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e0de4e3a56fdddd0800000000000000
+      internalID: -2459538954021580573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NabooAnim1_tex_1
+      rect:
+        serializedVersion: 2
+        x: 7989
+        y: 8167
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18d3bdd60ae25f970800000000000000
+      internalID: 8787981514456120705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NabooAnim1_tex_2
+      rect:
+        serializedVersion: 2
+        x: 7996
+        y: 7845
+        width: 155
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8222ad7e5a5a32d30800000000000000
+      internalID: 4405546992476496424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NabooAnim1_tex_3
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 7992
+        width: 47
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3174990f14e2694e0800000000000000
+      internalID: -1975340525811054829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NabooAnim1_tex_4
+      rect:
+        serializedVersion: 2
+        x: 7552
+        y: 7851
+        width: 6
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1277730342c4d0410800000000000000
+      internalID: 1444894773767272225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NabooAnim1_tex_5
+      rect:
+        serializedVersion: 2
+        x: 3185
+        y: 7132
+        width: 761
+        height: 511
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d206b06f1a96dee60800000000000000
+      internalID: 7993161057991090221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NabooAnim1_tex_6
+      rect:
+        serializedVersion: 2
+        x: 5999
+        y: 7774
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42203a8eb79d4de20800000000000000
+      internalID: 3374561147014545956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NabooAnim1_tex_7
+      rect:
+        serializedVersion: 2
+        x: 7996
+        y: 7597
+        width: 181
+        height: 248
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c989a9faeaaedbd0800000000000000
+      internalID: -2603455608385861177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NabooAnim1_tex_8
+      rect:
+        serializedVersion: 2
+        x: 7787
+        y: 7739
+        width: 6
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eecca510f536a560800000000000000
+      internalID: 7324601149236760295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NabooAnim1_tex_9
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 7094
+        width: 808
+        height: 543
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbb155c17d2817a50800000000000000
+      internalID: 6517133996186737595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NabooAnim1_tex_10
+      rect:
+        serializedVersion: 2
+        x: 5555
+        y: 7176
+        width: 732
+        height: 448
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72daa7ba57f376120800000000000000
+      internalID: 2406962300473486631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NabooAnim1_tex_11
+      rect:
+        serializedVersion: 2
+        x: 7544
+        y: 7503
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45881da5ad439efc0800000000000000
+      internalID: -3465180325853689772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NabooAnim1_tex_12
+      rect:
+        serializedVersion: 2
+        x: 7546
+        y: 7497
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9168ca5612df99140800000000000000
+      internalID: 4727087603783599641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NabooAnim1_tex_13
+      rect:
+        serializedVersion: 2
+        x: 7617
+        y: 6899
+        width: 481
+        height: 615
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f888b167fa5d348e0800000000000000
+      internalID: -1710288483893147505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NabooAnim1_tex_14
+      rect:
+        serializedVersion: 2
+        x: 6311
+        y: 7086
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a09ab71762a55a10800000000000000
+      internalID: 1897601381669965990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NabooAnim1_tex_15
+      rect:
+        serializedVersion: 2
+        x: 7086
+        y: 6868
+        width: 565
+        height: 259
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2d64926a9eabdfa0800000000000000
+      internalID: -5774830119070438098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NabooAnim1_tex_16
+      rect:
+        serializedVersion: 2
+        x: 7086
+        y: 6409
+        width: 782
+        height: 459
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5acb7e2f1ece8cb50800000000000000
+      internalID: 6613796507980643493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NabooAnim1_tex_17
+      rect:
+        serializedVersion: 2
+        x: 7868
+        y: 6551
+        width: 286
+        height: 348
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9768f3d467b71d870800000000000000
+      internalID: 8705875302716245625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NabooAnim1_tex_18
+      rect:
+        serializedVersion: 2
+        x: 8155
+        y: 6804
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75ce1d19d72f3a120800000000000000
+      internalID: 2424047645586746455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NabooAnim1_tex_19
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 5535
+        width: 759
+        height: 471
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78d9606e7009e52e0800000000000000
+      internalID: -2135110809728672377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NabooAnim1_tex_20
+      rect:
+        serializedVersion: 2
+        x: 3203
+        y: 5535
+        width: 740
+        height: 465
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2972a89f2b62aa430800000000000000
+      internalID: 3794888186145679250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NabooAnim1_tex_21
+      rect:
+        serializedVersion: 2
+        x: 6860
+        y: 5919
+        width: 766
+        height: 495
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08fd9d1a8f044e0c0800000000000000
+      internalID: -4547438287125880960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NabooAnim1_tex_22
+      rect:
+        serializedVersion: 2
+        x: 7828
+        y: 5869
+        width: 151
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f0b8c404fb518390800000000000000
+      internalID: -7817866374528061191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NabooAnim1_tex_23
+      rect:
+        serializedVersion: 2
+        x: 7868
+        y: 6219
+        width: 287
+        height: 332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd05a0a6e1a167690800000000000000
+      internalID: -7604862202838101793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NabooAnim1_tex_24
+      rect:
+        serializedVersion: 2
+        x: 7979
+        y: 5907
+        width: 141
+        height: 312
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a23695e91256d2e0800000000000000
+      internalID: -2101401904942271836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NabooAnim1_tex_25
+      rect:
+        serializedVersion: 2
+        x: 5555
+        y: 5534
+        width: 732
+        height: 448
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddaa989e7466ef470800000000000000
+      internalID: 8430288011530971869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NabooAnim1_tex_26
+      rect:
+        serializedVersion: 2
+        x: 7626
+        y: 5959
+        width: 181
+        height: 259
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 711b2784aca2a69f0800000000000000
+      internalID: -474519762446929641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NabooAnim1_tex_27
+      rect:
+        serializedVersion: 2
+        x: 7626
+        y: 5638
+        width: 138
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81022d5612cfa7360800000000000000
+      internalID: 7168318977285955608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NabooAnim1_tex_28
+      rect:
+        serializedVersion: 2
+        x: 7764
+        y: 5738
+        width: 215
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0e33639b17325f10800000000000000
+      internalID: 2256926954842439183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NabooAnim1_tex_29
+      rect:
+        serializedVersion: 2
+        x: 7979
+        y: 5748
+        width: 119
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8896840a646c88a0800000000000000
+      internalID: -6301551372092925811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NabooAnim1_tex_30
+      rect:
+        serializedVersion: 2
+        x: 7979
+        y: 5588
+        width: 118
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c09cd4725df84ef0800000000000000
+      internalID: -123570459162931003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NabooAnim1_tex_31
+      rect:
+        serializedVersion: 2
+        x: 7764
+        y: 5608
+        width: 215
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe6050450ae96f490800000000000000
+      internalID: -7712802900383824145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NabooAnim1_tex_32
+      rect:
+        serializedVersion: 2
+        x: 3563
+        y: 5522
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbe7fbea89341a4a0800000000000000
+      internalID: -6583906857193079107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NabooAnim1_tex_33
+      rect:
+        serializedVersion: 2
+        x: 3577
+        y: 5519
+        width: 49
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c589f4ed2919fe20800000000000000
+      internalID: 3384764279851419078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NabooAnim1_tex_34
+      rect:
+        serializedVersion: 2
+        x: 6311
+        y: 5444
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6a851a65c9dcf6a0800000000000000
+      internalID: -6414012327370847635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f00824636b7cdbf46bd7a2e3b0312729
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      NabooAnim1_tex_0: -2459538954021580573
+      NabooAnim1_tex_1: 8787981514456120705
+      NabooAnim1_tex_10: 2406962300473486631
+      NabooAnim1_tex_11: -3465180325853689772
+      NabooAnim1_tex_12: 4727087603783599641
+      NabooAnim1_tex_13: -1710288483893147505
+      NabooAnim1_tex_14: 1897601381669965990
+      NabooAnim1_tex_15: -5774830119070438098
+      NabooAnim1_tex_16: 6613796507980643493
+      NabooAnim1_tex_17: 8705875302716245625
+      NabooAnim1_tex_18: 2424047645586746455
+      NabooAnim1_tex_19: -2135110809728672377
+      NabooAnim1_tex_2: 4405546992476496424
+      NabooAnim1_tex_20: 3794888186145679250
+      NabooAnim1_tex_21: -4547438287125880960
+      NabooAnim1_tex_22: -7817866374528061191
+      NabooAnim1_tex_23: -7604862202838101793
+      NabooAnim1_tex_24: -2101401904942271836
+      NabooAnim1_tex_25: 8430288011530971869
+      NabooAnim1_tex_26: -474519762446929641
+      NabooAnim1_tex_27: 7168318977285955608
+      NabooAnim1_tex_28: 2256926954842439183
+      NabooAnim1_tex_29: -6301551372092925811
+      NabooAnim1_tex_3: -1975340525811054829
+      NabooAnim1_tex_30: -123570459162931003
+      NabooAnim1_tex_31: -7712802900383824145
+      NabooAnim1_tex_32: -6583906857193079107
+      NabooAnim1_tex_33: 3384764279851419078
+      NabooAnim1_tex_34: -6414012327370847635
+      NabooAnim1_tex_35: 710064468
+      NabooAnim1_tex_4: 1444894773767272225
+      NabooAnim1_tex_5: 7993161057991090221
+      NabooAnim1_tex_6: 3374561147014545956
+      NabooAnim1_tex_7: -2603455608385861177
+      NabooAnim1_tex_8: 7324601149236760295
+      NabooAnim1_tex_9: 6517133996186737595
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

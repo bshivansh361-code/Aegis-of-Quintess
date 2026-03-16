@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9214c9c4415c0648947989d6fefd59d, type: 3}
+  m_Name: Naboo IKSet_Data
+  m_EditorClassIdentifier: Assembly-CSharp::DragonBones.UnityDragonBonesData
+  dataName: Naboo IKSet_ske
+  dragonBonesJSON: {fileID: 4900000, guid: 795d26d0a70f99d48a27899f2166f605, type: 3}
+  textureAtlas:
+  - textureAtlasJSON: {fileID: 4900000, guid: fa97af6e6e7a5c042b77e397ef6becee, type: 3}
+    texture: {fileID: 2800000, guid: 67d5955d4f33afb4997a87e9c2040c43, type: 3}
+    material: {fileID: 2100000, guid: 1fd6dde0ec6d48541a72401f7aaa1705, type: 2}
+    uiMaterial: {fileID: 0}
