@@ -52,7 +52,7 @@ namespace TarodevController
         private bool _iswallJump;
      
         [Header("DragonBones Setup")]
-        public string ikTargetBoneName = "arm_ik_target";
+        [SerializeField] string ikTargetBoneName ;
         private DragonBones.Bone _headBone;
         public UnityArmatureComponent armatureComponent;
     
@@ -86,10 +86,6 @@ namespace TarodevController
             _cachedQueryStartInColliders = Physics2D.queriesStartInColliders;
             SetupInputActions();
             _mainCamera = Camera.main;
-            // Find the bone once at the start
-            if (armatureComponent != null)
-                _ikTargetBone = armatureComponent.armature.GetBone(ikTargetBoneName);
-            _headBone = armatureComponent.armature.GetBone("Head");
         }
 
         private void SetupInputActions()
@@ -128,7 +124,38 @@ namespace TarodevController
 
         private void OnEnable() { _moveAction.Enable(); _jumpAction.Enable(); _dashAction.Enable(); _stickAction.Enable(); _aimAction.Enable();_fireAction.Enable(); }
         private void OnDisable() { _moveAction.Disable(); _jumpAction.Disable(); _dashAction.Disable(); _stickAction.Disable(); _aimAction.Disable(); _fireAction.Disable(); }
+        private void Start()
+        {
+            // Check 1: Is the component assigned in the inspector?
+            if (armatureComponent == null)
+            {
+                Debug.LogError("DIAGNOSTIC: armatureComponent is completely empty! Assign it in the Inspector.");
+                return;
+            }
 
+            // Check 2: Did DragonBones build the rig?
+            if (armatureComponent.armature == null)
+            {
+                Debug.LogError("DIAGNOSTIC: armatureComponent exists, but the 'armature' inside it failed to build. Try re-importing the DragonBones data.");
+                return;
+            }
+
+            // Check 3: Find the bones
+            _ikTargetBone = armatureComponent.armature.GetBone(ikTargetBoneName);
+            _headBone = armatureComponent.armature.GetBone("Head");
+
+            // Check 4: Did we actually find them?
+            if (_ikTargetBone == null) 
+                Debug.LogError("DIAGNOSTIC: Could not find a bone named '" + ikTargetBoneName + "'. Check your spelling in DragonBones!");
+    
+            if (_headBone == null) 
+                Debug.LogError("DIAGNOSTIC: Could not find a bone named 'Head'. Check your spelling in DragonBones!");
+
+            if (_ikTargetBone != null && _headBone != null)
+            {
+                Debug.Log("DIAGNOSTIC: SUCCESS! Bones found and connected.");
+            }
+        }
         private void Update()
         {
             _time += Time.deltaTime;
@@ -173,13 +200,18 @@ namespace TarodevController
             }
             else
             { 
-                _ikTargetBone.offset.x =0;
-                _ikTargetBone.offset.y = 0;
-
-                _headBone.offset.rotation = 0;
-                // 2. Refresh the skeleton
-                _ikTargetBone.InvalidUpdate();
-                HandleSpriteFlip(false); 
+                if (_ikTargetBone != null && _headBone != null)
+                {
+                    _ikTargetBone.offset.x = 0;
+                    _ikTargetBone.offset.y = 0;
+                    _headBone.offset.rotation = 0;
+        
+                    // Refresh the skeleton
+                    _ikTargetBone.InvalidUpdate();
+                }
+    
+                // We still want to handle sprite flipping even if the bones are missing
+                HandleSpriteFlip(false);
             }
         }
 

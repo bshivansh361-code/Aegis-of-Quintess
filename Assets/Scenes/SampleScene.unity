@@ -399,10 +399,10 @@ GameObject:
   m_Component:
   - component: {fileID: 282643226}
   - component: {fileID: 282643225}
-  - component: {fileID: 282643224}
   - component: {fileID: 282643223}
-  - component: {fileID: 282643227}
   - component: {fileID: 282643228}
+  - component: {fileID: 282643229}
+  - component: {fileID: 282643230}
   m_Layer: 0
   m_Name: Naboo Root
   m_TagString: Untagged
@@ -447,70 +447,6 @@ CapsuleCollider2D:
   m_Offset: {x: -0.72, y: 0}
   m_Size: {x: 5.9, y: 13.4}
   m_Direction: 0
---- !u!114 &282643224
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 282643222}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7641b4ecbcedab47b8cde8f82dce439, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::NabooAnimationBridge
-  armature: {fileID: 1157516690}
-  idleVisualsObject: {fileID: 569652437733357156}
-  equipmentTiers:
-  - tierName: Haverin Level1
-    idleHaverinSprite: {fileID: 2406962300473486631, guid: 67d5955d4f33afb4997a87e9c2040c43, type: 3}
-    runAnim: NabooRunH1
-    wallGrabAnim: NabooWallGrabH1
-    takeOffAnim: NabooTakeOffH1
-    midAirAnim: NabooMidAirH1
-    fallAnim: NabooFallH1
-    landAnim: NabooLandH1
-  - tierName: Haverin Level2
-    idleHaverinSprite: {fileID: 4308014901850442649, guid: 7c32ba4d24fc4ce44896b1e734aad1e0, type: 3}
-    runAnim: NabooRunH2
-    wallGrabAnim: NabooWallGrabH2
-    takeOffAnim: NabooTakeOffH2
-    midAirAnim: NabooMidAirH2
-    fallAnim: NabooFallH2
-    landAnim: NabooLandH2
-  - tierName: Haverin Level3
-    idleHaverinSprite: {fileID: -8677389431939294442, guid: 77d994d9d4ef10e4a94a54f31192e3a3, type: 3}
-    runAnim: NabooRunH3
-    wallGrabAnim: NabooWallGrabH3
-    takeOffAnim: NabooTakeOffH3
-    midAirAnim: NabooMidAirH3
-    fallAnim: NabooFallH3
-    landAnim: NabooLandH3
-  - tierName: Haverin Level4
-    idleHaverinSprite: {fileID: -557780217894572507, guid: 8da618c4bf0ac2140a29604e445a7f51, type: 3}
-    runAnim: NabooRunH4
-    wallGrabAnim: NabooWallGrabH4
-    takeOffAnim: NabooTakeOffH4
-    midAirAnim: NabooMidAirH4
-    fallAnim: NabooFallH4
-    landAnim: NabooLandH4
-  - tierName: Haverin Level5
-    idleHaverinSprite: {fileID: 2814730274305921610, guid: dcbe782dcd53bbc4da0e841b1f8bfbd0, type: 3}
-    runAnim: NabooRunH5
-    wallGrabAnim: NabooWallGrabH5
-    takeOffAnim: NabooTakeOffH5
-    midAirAnim: NabooMidAirH5
-    fallAnim: NabooFallH5
-    landAnim: NabooLandH5
-  - tierName: Haverin Damaged
-    idleHaverinSprite: {fileID: -8739152508397599999, guid: 63ab05a0d4ac43d4aaedea9de4646364, type: 3}
-    runAnim: NabooRunHD
-    wallGrabAnim: NabooWallGrabHD
-    takeOffAnim: NabooTakeOffHD
-    midAirAnim: NabooMidAirHD
-    fallAnim: NabooFallHD
-    landAnim: NabooLandHD
-  idleHaverinRenderer: {fileID: 3412298055926298814}
 --- !u!50 &282643225
 Rigidbody2D:
   serializedVersion: 5
@@ -555,23 +491,6 @@ Transform:
   - {fileID: 1157516688}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &282643227
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 282643222}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4310d58f26c110f41971365eff837c68, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TarodevController.PlayerController
-  _stats: {fileID: 11400000, guid: 2599824722c064848b5b1b966d025948, type: 2}
-  ikTargetBoneName: IK_ArmFront
-  armatureComponent: {fileID: 1157516690}
-  aimReach: 0.7
-  _useController: 0
 --- !u!95 &282643228
 Animator:
   serializedVersion: 7
@@ -594,6 +513,87 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &282643229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 282643222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7641b4ecbcedab47b8cde8f82dce439, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NabooAnimationBridge
+  armature: {fileID: 1157516690}
+  idleVisualsObject: {fileID: 569652437733357156}
+  equipmentTiers:
+  - tierName: Haverin_Lvl_1
+    idleHaverinSprite: {fileID: -4948077156480129334, guid: 398aafb75cacf674ca26da694085e9c5, type: 3}
+    runAnim: NabooRunH1
+    wallGrabAnim: NabooWallGrabH1
+    takeOffAnim: NabooTakeOffH1
+    midAirAnim: NabooMidAirH1
+    fallAnim: NabooFallH1
+    landAnim: NabooLandH1
+  - tierName: Haverin_Lvl2
+    idleHaverinSprite: {fileID: 4308014901850442649, guid: 7c32ba4d24fc4ce44896b1e734aad1e0, type: 3}
+    runAnim: NabooRunH2
+    wallGrabAnim: NabooWallGrabH2
+    takeOffAnim: NabooTakeOffH2
+    midAirAnim: NabooMidAirH2
+    fallAnim: NabooFallH2
+    landAnim: NabooLandH2
+  - tierName: Haverin_Lvl3
+    idleHaverinSprite: {fileID: -8677389431939294442, guid: 77d994d9d4ef10e4a94a54f31192e3a3, type: 3}
+    runAnim: NabooRunH3
+    wallGrabAnim: NabooWallGrabH3
+    takeOffAnim: NabooTakeOffH3
+    midAirAnim: NabooMidAirH3
+    fallAnim: NabooFallH3
+    landAnim: NabooLandH3
+  - tierName: Haverin_Lvl4
+    idleHaverinSprite: {fileID: -557780217894572507, guid: 8da618c4bf0ac2140a29604e445a7f51, type: 3}
+    runAnim: NabooRunH4
+    wallGrabAnim: NabooWallGrabH4
+    takeOffAnim: NabooTakeOffH4
+    midAirAnim: NabooMidAirH4
+    fallAnim: NabooFallH4
+    landAnim: NabooLandH4
+  - tierName: Haverin_Lvl5
+    idleHaverinSprite: {fileID: 2814730274305921610, guid: dcbe782dcd53bbc4da0e841b1f8bfbd0, type: 3}
+    runAnim: NabooRunH5
+    wallGrabAnim: NabooWallGrabH5
+    takeOffAnim: NabooTakeOffH5
+    midAirAnim: NabooMidAirH5
+    fallAnim: NabooFallH5
+    landAnim: NabooLandH5
+  - tierName: Haverin_Damaged
+    idleHaverinSprite: {fileID: -8739152508397599999, guid: 63ab05a0d4ac43d4aaedea9de4646364, type: 3}
+    runAnim: NabooRunHD
+    wallGrabAnim: NabooWallGrabHD
+    takeOffAnim: NabooTakeOffHD
+    midAirAnim: NabooMidAirHD
+    fallAnim: NabooFallHD
+    landAnim: NabooLandHD
+  idleHaverinRenderer: {fileID: 3412298055926298814}
+--- !u!114 &282643230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 282643222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4310d58f26c110f41971365eff837c68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TarodevController.PlayerController
+  _stats: {fileID: 11400000, guid: 2599824722c064848b5b1b966d025948, type: 2}
+  ikTargetBoneName: IK_ArmFront
+  armatureComponent: {fileID: 1157516690}
+  aimReach: 0.7
+  _useController: 0
 --- !u!1 &454656875
 GameObject:
   m_ObjectHideFlags: 0
