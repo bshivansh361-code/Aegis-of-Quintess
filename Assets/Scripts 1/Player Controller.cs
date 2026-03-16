@@ -345,7 +345,7 @@ namespace TarodevController
         {
             if (_isDashing || _isWallSticking) return;
 
-            float currentFacing = armatureComponent.transform.localScale.x;
+            float currentFacing = transform.localScale.x;
 
             if (manualAiming)
             {
@@ -392,7 +392,7 @@ namespace TarodevController
 
         private void FlipLogic(float newScaleX)
         {
-            armatureComponent.transform.localScale = new Vector3(newScaleX, 1, 1);
+            transform.localScale = new Vector3(newScaleX, 1, 1);
             _facingRight = newScaleX > 0;
         }
         #region Collisions
@@ -551,7 +551,7 @@ namespace TarodevController
             // Only restrict movement if the player is actively aiming/firing
             if (isAiming)
             {
-                float facingDir = armatureComponent.transform.localScale.x;
+                float facingDir = transform.localScale.x;
                 if (moveInput != 0 && Mathf.Sign(moveInput) != Mathf.Sign(facingDir))
                 {
                     moveInput = 0; 

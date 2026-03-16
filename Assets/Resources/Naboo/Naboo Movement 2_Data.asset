@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f9214c9c4415c0648947989d6fefd59d, type: 3}
-  m_Name: Naboo IKSet_Data
+  m_Name: Naboo Movement 2_Data
   m_EditorClassIdentifier: Assembly-CSharp::DragonBones.UnityDragonBonesData
-  dataName: Naboo IKSet_ske
-  dragonBonesJSON: {fileID: 4900000, guid: 795d26d0a70f99d48a27899f2166f605, type: 3}
+  dataName: Naboo Movement 2_ske
+  dragonBonesJSON: {fileID: 4900000, guid: 32976162aadc819428711961794b86a2, type: 3}
   textureAtlas:
   - textureAtlasJSON: {fileID: 4900000, guid: fa97af6e6e7a5c042b77e397ef6becee, type: 3}
     texture: {fileID: 2800000, guid: 67d5955d4f33afb4997a87e9c2040c43, type: 3}
